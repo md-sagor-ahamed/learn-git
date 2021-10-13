@@ -41,10 +41,10 @@ const submit = document.querySelector(".submit");
 const findLi = document.querySelector(".mainLi");
 const findUl = document.querySelector(".mainUl");
 
-function ieventInfo(evt){
-    evt.preventDefault();
-    const findLi = document.createElement('li');
-    findLi.textContent = input.value;
-    findLi.classList.add = 'mainLi';
-    createUl.appendChild(findLi);
-}
+// function ieventInfo(evt){
+//     evt.preventDefault();
+//     const findLi = document.createElement('li');
+//     findLi.textContent = input.value;
+//     findLi.classList.add = 'mainLi';
+//     createUl.appendChild(findLi);
+// }

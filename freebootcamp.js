@@ -48,7 +48,7 @@
 //     })
 //   }
   
-//   console.log(mutation(["hello", "hey"]));
+  console.log(mutation(["hello", "hey"]));
 
 
 

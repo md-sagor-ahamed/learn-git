@@ -55,14 +55,14 @@
 // // function titleCase(str) {
 // //     console.log(str);
 
-// //     const arr = str.toLowerCase().split(' ');
-// //     const result = arr.map(function(val){
-// //         return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
-// //     })
-// //     return result.join(" ")
-// //   }
+    const arr = str.toLowerCase().split(' ');
+    const result = arr.map(function(val){
+        return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+    })
+    return result.join(" ");
+  }
   
-// //   console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("I'm a little tea pot"));
 
 
 
